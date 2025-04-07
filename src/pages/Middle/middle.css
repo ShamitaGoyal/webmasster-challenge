@@ -1,0 +1,26 @@
+.words-section {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: clamp(1rem, 5vw, 5rem); /* Dynamically adjusts padding */
+    font-family: 'Quicksand';
+    margin-top: 1rem;
+    
+  }
+
+  /* title and paragraph font size */
+.title-para {
+    margin-bottom: 2rem;
+    max-width: 55rem;
+    font-size: clamp(1.25rem, 5vw, 2.5rem); 
+    font-weight: 600;
+  }
+
+.para {
+    max-width: 60rem;
+    font-size: clamp(1rem, 5vw, 1.2rem); 
+  }
+

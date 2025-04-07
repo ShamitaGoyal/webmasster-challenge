@@ -1,0 +1,34 @@
+.hero-section{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    /* border: 2px solid rgb(0, 98, 255); */
+
+}
+
+.hero-title{
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: clamp(1.5rem, 5vw, 5rem); 
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+
+.hero-mountain1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    max-width: 80rem;
+}

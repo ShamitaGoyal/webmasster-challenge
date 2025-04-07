@@ -1,0 +1,36 @@
+.parks-data {
+    /* background-color: rebeccapurple; */
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 Grid layout */
+    padding: clamp(5rem, 5vw, 7rem); /* Dynamically adjusts padding */
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand';
+}
+
+.parks-data p{
+    max-width: 35rem;
+    
+}
+
+
+.accordion{
+    margin-top: 15%;
+    display: none;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width: 735px) {
+    .parks-data {
+        display: none;
+    }
+    
+    .accordion{
+    display: block;
+    }
+}

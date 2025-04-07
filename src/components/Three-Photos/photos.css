@@ -1,0 +1,61 @@
+.three-imgs {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  padding: 1rem;
+  flex-wrap: wrap; 
+}
+
+
+.image {
+  width: 20rem; 
+  margin-right: 2rem; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+.image1 {
+  position: relative;
+  top: 0; 
+}
+
+.image2 {
+  position: relative;
+  top: 2rem; 
+}
+
+.image3 {
+  position: relative;
+  top: 5rem; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .three-imgs {
+      flex-direction: column; 
+      align-items: center;
+  }
+
+  .image1, .image2, .image3 {
+      margin-right: 0; 
+      margin-bottom: 1rem; 
+  }
+
+  .image1, .image2, .image3 {
+      width: 20rem; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image1, .image2, .image3 {
+      width: 20rem; 
+  }
+}
+
+
+@media screen and (max-width: 365px) {
+  .image1, .image2, .image3 {
+      width: 16rem; 
+  }
+}
